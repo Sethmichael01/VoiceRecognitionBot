@@ -18,6 +18,7 @@ namespace MichaellaBot
     {
         SpeechRecognitionEngine recEngine = new SpeechRecognitionEngine();
         SpeechSynthesizer speech = new SpeechSynthesizer();
+        System.Media.SoundPlayer music = new System.Media.SoundPlayer();
 
         public Form1()
         {
@@ -64,6 +65,29 @@ namespace MichaellaBot
                     label2.Text = result;
                     Application.Exit();
                     break;
+                case "Open Google":
+                    System.Diagnostics.Process.Start("https://google.com");
+                    result = "Opening Google";
+                    speech.SpeakAsync(result);
+                    label2.Text = result;
+                    break;
+                case "Exit Browser":
+                    System.Diagnostics.Process[] processes = System.Diagnostics.Process.GetProcessesByName("chrome");
+                    result = "Closing Browser";
+                    speech.SpeakAsync(result);
+                    label2.Text = result;
+                    break;
+                case "Play music":
+                    music.SoundLocation = ("Mawre - Alien ( ).wav");
+                    music.Play();
+                    result = "";
+                    break;
+                case "Stop music":
+                    speech.SpeakAsyncCancelAll();
+                    music.Stop();
+                    result = "";
+                    break;
+
             }
             
         }

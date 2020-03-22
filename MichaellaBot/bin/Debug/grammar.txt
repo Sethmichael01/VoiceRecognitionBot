@@ -2,3 +2,8 @@ Hello
 What is today
 Thank you
 Close
+Stop music
+Open Google
+Exit Browser
+Play music
+Stop music
