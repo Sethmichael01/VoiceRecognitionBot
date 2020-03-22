@@ -1,0 +1,9 @@
+C:\Users\sethm\Desktop\MichaellaBot\MichaellaBot\bin\Debug\MichaellaBot.exe.config
+C:\Users\sethm\Desktop\MichaellaBot\MichaellaBot\bin\Debug\MichaellaBot.exe
+C:\Users\sethm\Desktop\MichaellaBot\MichaellaBot\bin\Debug\MichaellaBot.pdb
+C:\Users\sethm\Desktop\MichaellaBot\MichaellaBot\obj\Debug\MichaellaBot.csprojAssemblyReference.cache
+C:\Users\sethm\Desktop\MichaellaBot\MichaellaBot\obj\Debug\MichaellaBot.Form1.resources
+C:\Users\sethm\Desktop\MichaellaBot\MichaellaBot\obj\Debug\MichaellaBot.Properties.Resources.resources
+C:\Users\sethm\Desktop\MichaellaBot\MichaellaBot\obj\Debug\MichaellaBot.csproj.GenerateResource.cache
+C:\Users\sethm\Desktop\MichaellaBot\MichaellaBot\obj\Debug\MichaellaBot.exe
+C:\Users\sethm\Desktop\MichaellaBot\MichaellaBot\obj\Debug\MichaellaBot.pdb
